@@ -7,6 +7,6 @@ const journalSchema = new mongoose.Schema({
   date: { type: String, required: true }, // Change to string
 })
 
-const journal = mongoose.model('journals', journalSchema)
+const jour = mongoose.model('journals', journalSchema)
 
-module.exports = journal
+module.exports = jour

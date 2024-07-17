@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Journal = require('../models/Journal')
+const Journal = require('../models/jour');
 
 // Get journal route
 router.route('/journal').get(async (req, res) => {
