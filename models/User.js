@@ -8,6 +8,6 @@ const userSchema = new mongoose.Schema({
   backupQuestionAns: { type: String, required: true },
 });
 
-const User = mongoose.model('Users', userSchema);
+const user = mongoose.model('users', userSchema);
 
-module.exports = User;
+module.exports = user;
